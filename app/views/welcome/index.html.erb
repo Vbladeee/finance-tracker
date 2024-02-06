@@ -1,1 +1,4 @@
 <h1>Welcome to the Finance Tracker app!</h1>
+<p>Sign up or log in to get started.</p>
+
+<%= link_to "Sign up", destroy_user_session_path, data: { "turbo-method": :delete, "turbo-confirm": "You are about to logout. Are you sure?" } %>
