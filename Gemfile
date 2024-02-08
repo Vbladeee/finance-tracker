@@ -38,6 +38,7 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem "bootstrap"
 gem 'iex-ruby-client'
+gem "font-awesome-rails"
 
 gem "sassc-rails"
 
